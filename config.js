@@ -1,4 +1,4 @@
-/* Owner dashboard connection.
+﻿/* Owner dashboard connection.
    1. Create a free project at https://supabase.com
    2. Run supabase/schema.sql in the SQL Editor
    3. Paste the Project URL and the "anon public" key below (Project Settings → API)
