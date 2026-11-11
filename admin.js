@@ -130,7 +130,7 @@ document.addEventListener('click', async e => {
 /* ---------------- home ---------------- */
 function drawHome() {
   const h = new Date().getHours();
-  $('[data-greet]').textContent = h < 12 ? 'Good morning' : h < 17 ? 'Good afternoon' : 'Good evening';
+  $('[data-greet]').textContent = h < 12 ? 'Good morning rtrtrr' : h < 17 ? 'Good afternoon' : 'Good evening';
   $('[data-today]').textContent = new Date().toLocaleDateString(undefined, { weekday: 'long', month: 'long', day: 'numeric' });
   const today = isoDay(), wk = Date.now() - 7 * 864e5;
   const fresh = orders.filter(o => o.status === 'new');
